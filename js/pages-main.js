@@ -84,7 +84,7 @@ export function homePage() {
     mount(root) {
       const cleanups = [];
       cleanups.push(mountSpeechPanel(root.querySelector('#speech-slot'), {
-        title: 'Alyantri says', mp3: 'assets/audio/home.mp3',
+        title: 'Alyantri says', mp3: 'assets/audio/intro.mp3',
         text: 'Hello, **DevOps explorer**!\nI am Alyantri, your DevOps companion.\nChoose a tool in the orbit to **learn it**, **generate configuration files**, or **solve production issues**.'
       }));
       cleanups.push(mountWizard(root.querySelector('#wizard-box')));
